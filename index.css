@@ -1,0 +1,42 @@
+
+
+
+.titol{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenidor1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-justify: auto;
+
+}
+
+.foto{
+    
+    /*responsive*/
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+
+    );
+    gap: 20px;
+
+}
+
+.img{
+    /*tamany*/
+    width: 100%;
+    max-width: 590px;
+    height: auto;
+    /*max-width: 150px;*/
+}
+
+.tamany{
+    font-size: 12px;
+    margin-top: 5px;
+    
+}
